@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>GizmoHub</title>
+  </head>
+  <body>
+    <div
+      class="container min-h-screen min-w-full bg-center bg-cover font-quicksand"
+    >
+      <nav
+        class="relative flex items-center justify-between bg-pink-50 px-10 py-3"
+      >
+        <a href="index.html"><img class="w-48" src="../assets/logo.png" /></a>
+        <ul class="absolute left-1/2 transform -translate-x-1/2 flex space-x-5">
+          <li class="list-none">
+            <a
+              href="index.html"
+              class="no-underline px-4 rounded-3xl pt-2 pb-2 hover:bg-gray-900 hover:text-white ease-in-out duration-200"
+              >Home</a
+            >
+          </li>
+          <li class="list-none">
+            <a
+              href="#product-details"
+              class="no-underline px-4 rounded-3xl pt-2 pb-2 hover:bg-gray-900 hover:text-white ease-in-out duration-200"
+              >Products</a
+            >
+          </li>
+          <li class="list-none">
+            <a
+              href="#customer-reviews"
+              class="no-underline px-4 rounded-3xl pt-2 pb-2 hover:bg-gray-900 hover:text-white ease-in-out duration-200"
+              >Reviews</a
+            >
+          </li>
+          <li class="list-none">
+            <a
+              href="#contact-us"
+              class="no-underline px-4 rounded-3xl pt-2 pb-2 hover:bg-gray-900 hover:text-white ease-in-out duration-200"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <a href="#product-details"><img class="w-10" src="../assets/cart-icon.png" /></a>
+      </nav>
+
+      <div class="flex flex-col items-center pt-10 border">
+        <h1 class="text-2xl lg:text-center">
+          Unleash the Future with GizmoMax
+        </h1>
+        <img
+          class="w-3/6 mt-3.5 rounded-3xl hover:rounded-2xl ease-in-out duration-500"
+          src="../assets/gizmomax.jpg"
+        />
+        <a
+          class="mt-4 mb-10 p-2.5 rounded-xl border-2 border-gray-900 hover:bg-gray-900 hover:text-white ease-in-out duration-500"
+          href="#product-details"
+        >
+          More Details
+        </a>
+      </div>
+
+      <div class="w-full flex flex-col items-center p-10" id="product-details">
+        <h1 class="text-2xl mt-5">Why GizmoMax?</h1>
+        <div class="flex flex-col lg:flex-row w-full mt-5">
+          <div class="lg:w-3/5 flex flex-col text-center">
+            <div class="lg:w-1/2 mb-2">
+              <div
+                class="border border-white rounded-xl bg-pink-100 p-2 hover:border-black ease-in-out duration-500"
+              >
+                <h5 class="text-lg">
+                  Equipped with the Latest Processor and High-speed memory
+                </h5>
+              </div>
+            </div>
+            <div class="lg:w-1/2 mb-2 lg:ml-auto">
+              <div
+                class="border border-white rounded-xl bg-pink-100 p-2 hover:border-black ease-in-out duration-500"
+              >
+                <h5 class="text-lg">
+                  4K Ultra-HD touchscreen for crystal-clear visuals
+                </h5>
+              </div>
+            </div>
+            <div class="lg:w-1/2 mb-2">
+              <div
+                class="border border-white rounded-xl bg-pink-100 p-2 hover:border-black ease-in-out duration-500"
+              >
+                <h5 class="text-lg">
+                  Supports Wi-Fi 6, Bluetooth 5.2, and multiple ports
+                </h5>
+              </div>
+            </div>
+            <div class="lg:w-1/2 mb-2 lg:ml-auto">
+              <div
+                class="border border-white rounded-xl bg-pink-100 p-2 hover:border-black ease-in-out duration-500"
+              >
+                <h5 class="text-lg">
+                  Integrated AI assistant and customizable settings
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-2/5 flex items-center justify-center">
+            <img class="w-11/12 rounded-2xl" src="../assets/gizmomax2.jpg" />
+          </div>
+        </div>
+        <button
+          class="mt-7 p-2.5 rounded-xl border-2 border-gray-900 hover:bg-gray-900 hover:text-white ease-in-out duration-500"
+        >
+          Starting from 1299$
+        </button>
+      </div>
+
+      <div class="text-center border bg-cyan-50" id="customer-reviews">
+        <h1 class="p-10 text-2xl">Customer Reviews</h1>
+        <div
+          class="flex flex-col lg:flex-row w-full items-center justify-center"
+        >
+          <div class="flex flex-col items-center justify-center p-10">
+            <img
+              class="w-32 h-32 rounded-full object-cover hover:w-36 hover:h-36 ease-in-out duration-500"
+              src="../assets/image1.jpg"
+            />
+            <h3 class="font-bold m-4">Khabib Nurmagomedov</h3>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim
+              delectus ab!
+            </p>
+            <img class="w-32" src="../assets/fivestar.png" />
+          </div>
+          <div class="flex flex-col items-center justify-center p-10">
+            <img
+              class="w-32 h-32 rounded-full object-cover hover:w-36 hover:h-36 ease-in-out duration-500"
+              src="../assets/image2.webp"
+            />
+            <h3 class="font-bold m-4">Max Holloway</h3>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim
+              delectus ab!
+            </p>
+            <img class="w-32" src="../assets/fivestar.png" />
+          </div>
+          <div class="flex flex-col items-center justify-center p-10">
+            <img
+              class="w-32 h-32 rounded-full object-cover hover:w-36 hover:h-36 ease-in-out duration-500"
+              src="../assets/image3.jpeg"
+            />
+            <h3 class="font-bold m-4">Sean Strickland</h3>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim
+              delectus ab!
+            </p>
+            <img class="w-32" src="../assets/fivestar.png" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col w-3/4 my-12 mx-auto border text-center rounded-xl bg-pink-50"
+        id="contact-us"
+      >
+        <h1 class="text-2xl p-10">Contact Us</h1>
+
+        <div class="flex flex-col lg:flex-row w-full">
+          <div class="flex flex-row w-full lg:w-1/3 justify-center">
+            <img class="mr-2" src="../assets/phone.png" />
+            <h4 class="font-semibold">+977 9812312312</h4>
+          </div>
+
+          <div class="flex flex-row justify-center w-full lg:w-1/3">
+            <img class="mr-2" src="../assets/location.png" />
+            <h4 class="font-semibold">Gabahal, Lalitpur</h4>
+          </div>
+
+          <div class="flex flex-row justify-center w-full lg:w-1/3">
+            <img class="mr-2" src="../assets/email.png" />
+            <h4 class="font-semibold">inquiry@gizmohub.com.np</h4>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center text-center mt-10">
+          <input
+            type="text"
+            placeholder="Enter your name..."
+            class="w-3/4 h-10 border rounded-xl p-2"
+          />
+          <input
+            type="text"
+            placeholder="Enter your email..."
+            class="w-3/4 h-10 border rounded-xl p-2 mt-2"
+          />
+          <input
+            type="text"
+            placeholder="Enter subject..."
+            class="w-3/4 h-10 border rounded-xl p-2 mt-2"
+          />
+          <textarea
+            name="#"
+            placeholder="Enter the message..."
+            class="w-3/4 h-28 border rounded-xl p-2 mt-2"
+          ></textarea>
+          <button
+            class="m-7 p-2.5 rounded-xl border-2 border-gray-900 hover:bg-gray-900 hover:text-white ease-in-out duration-500"
+          >
+            Send Message
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col w-full justify-center text-center items-center bg-cyan-50 p-10"
+      >
+        <h4 class="text-xl">Connect with us</h4>
+        <div class="flex flex-row">
+          <a href="#"><img class="p-3" src="../assets/facebook.png" /></a>
+          <a href="#"><img class="p-3" src="../assets/insta.png" /></a>
+          <a href="#"><img class="p-3" src="../assets/youtube.png" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
